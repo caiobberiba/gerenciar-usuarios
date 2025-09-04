@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chai": "4.3.10",
+    "mocha": "^11.7.2"
+  },
+  "name": "gerenciar-usuarios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiobberiba/gerenciar-usuarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiobberiba/gerenciar-usuarios/issues"
+  },
+  "homepage": "https://github.com/caiobberiba/gerenciar-usuarios#readme",
+  "description": ""
+}
