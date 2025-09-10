@@ -24,14 +24,39 @@ Implementar e testar funções para gerenciar uma lista de usuários, incluindo:
 
 ## Como Executar
 
+### Requisitos
+
+- Node.js versão 18 ou superior recomendada
+
+### Instalação
+
 1. Instale as dependências:
    ```bash
    npm install
    ```
-2. Execute os testes:
+
+### Execução dos Testes
+
+2. Execute todos os testes:
    ```bash
    npm test
+   # ou
+   npx mocha
    ```
+
+3. Execute um teste específico:
+   ```bash
+   npx mocha test/gerenciarUsuarios.test.js
+   ```
+
+### Adicionando Novos Testes
+
+Crie um novo arquivo na pasta `test/` com o sufixo `.test.js` e siga o padrão dos testes existentes usando Mocha e Chai.
+
+### Interpretação dos Resultados
+
+- **Pass:** Todos os testes passaram, indicando que as funções estão funcionando conforme esperado.
+- **Fail:** Algum teste falhou, indicando que há um problema na implementação ou nos dados de entrada. Revise o erro apresentado para identificar e corrigir o problema.
 
 ## Aprendizados
 
